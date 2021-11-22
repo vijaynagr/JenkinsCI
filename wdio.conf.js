@@ -135,7 +135,7 @@ exports.config = {
     reporters: ['spec',
 	['junit',{
 		outputDir:'./',
-		outputFileFormat: function(9options) {
+		outputFileFormat: function(options) {
 			return 'results-${options.cid}.${options.cpabilities}.xml
 		}
 	}]
